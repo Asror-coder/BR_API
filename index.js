@@ -11,7 +11,7 @@ const httpLink = new createHttpLink({
   }
 });
 
-const hashAuth = btoa('API-BR-debook:APIkasdfhoisfh340rtu3fnr3ewfhr3gewy8h03g');
+const hashAuth = btoa('');
 
 const authLink = setContext((_, { headers }) => {
   return {
